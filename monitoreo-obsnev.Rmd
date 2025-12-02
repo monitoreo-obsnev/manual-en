@@ -29,6 +29,7 @@ This project has been developed within the framework of the work carried out by 
 ![](assets/logo-ugr.png)
 ![](assets/logo-ministerio.png)
 ![](assets/ugr23_feder.jpeg)
+![](assets/MICIU_everest.jpg)
 
 <!--chapter:end:index.Rmd-->
 
