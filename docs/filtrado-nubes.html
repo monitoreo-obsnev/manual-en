@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>11 Cloud Filtering | MonitorEO-OBSNEV user manual</title>
+  <meta name="description" content="User manual of the MonitorEO-OBSNEV tool" />
+  <meta name="generator" content="bookdown 0.42 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="11 Cloud Filtering | MonitorEO-OBSNEV user manual" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="User manual of the MonitorEO-OBSNEV tool" />
+  <meta name="github-repo" content="monitoreo-obsnev/manual" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="11 Cloud Filtering | MonitorEO-OBSNEV user manual" />
+  
+  <meta name="twitter:description" content="User manual of the MonitorEO-OBSNEV tool" />
+  
+
+<meta name="author" content="Cazorla, P.B., Guerrero, P., Alcaraz-Segura, D., Navarro, C., Bello, T., Postma, T., Zamora, R., Martínez-López, J." />
+
+
+<meta name="date" content="2025-11-18" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="agregacion-temporal-interanual.html"/>
+<link rel="next" href="mapas-graficos.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">MonitorEO-OBSNEV</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="interfaz.html"><a href="interfaz.html"><i class="fa fa-check"></i><b>2</b> MonitorEO-OBSNEV Interface</a></li>
+<li class="chapter" data-level="3" data-path="idiomas.html"><a href="idiomas.html"><i class="fa fa-check"></i><b>3</b> Languages</a></li>
+<li class="chapter" data-level="4" data-path="area-estudio.html"><a href="area-estudio.html"><i class="fa fa-check"></i><b>4</b> Study Area</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="area-estudio.html"><a href="area-estudio.html#draw-your-region-of-interest-roi-region-of-interest"><i class="fa fa-check"></i><b>4.1</b> <strong>🖊️ Draw your Region of Interest (ROI – Region of Interest)</strong></a></li>
+<li class="chapter" data-level="4.2" data-path="area-estudio.html"><a href="area-estudio.html#using-a-public-or-personal-asset"><i class="fa fa-check"></i><b>4.2</b> 📂 <strong>Using a Public or Personal Asset</strong></a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="area-estudio.html"><a href="area-estudio.html#access-the-upload-tool"><i class="fa fa-check"></i><b>4.2.1</b> Access the upload tool</a></li>
+<li class="chapter" data-level="4.2.2" data-path="area-estudio.html"><a href="area-estudio.html#upload-the-file"><i class="fa fa-check"></i><b>4.2.2</b> Upload the file</a></li>
+<li class="chapter" data-level="4.2.3" data-path="area-estudio.html"><a href="area-estudio.html#wait-for-processing"><i class="fa fa-check"></i><b>4.2.3</b> Wait for processing</a></li>
+<li class="chapter" data-level="4.2.4" data-path="area-estudio.html"><a href="area-estudio.html#use-the-asset-in-monitoreo"><i class="fa fa-check"></i><b>4.2.4</b> Use the asset in MonitorEO</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="area-estudio.html"><a href="area-estudio.html#specific-point-and-buffer"><i class="fa fa-check"></i><b>4.3</b> <strong>📌 Specific Point and Buffer</strong></a></li>
+<li class="chapter" data-level="4.4" data-path="area-estudio.html"><a href="area-estudio.html#national-park"><i class="fa fa-check"></i><b>4.4</b> <strong>🏞️ National Park</strong></a></li>
+<li class="chapter" data-level="4.5" data-path="area-estudio.html"><a href="area-estudio.html#world-database-on-protected-areas-wdpa"><i class="fa fa-check"></i><b>4.5</b> <strong>🌍 World Database on Protected Areas (WDPA)</strong></a></li>
+<li class="chapter" data-level="4.6" data-path="area-estudio.html"><a href="area-estudio.html#choose-a-project"><i class="fa fa-check"></i><b>4.6</b> <strong>📁 Choose a Project</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="fechas.html"><a href="fechas.html"><i class="fa fa-check"></i><b>5</b> Start and End Dates</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="fechas.html"><a href="fechas.html#selection-of-a-specific-interval"><i class="fa fa-check"></i><b>5.1</b> <strong>📆 Selection of a Specific Interval</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="tipo-variable.html"><a href="tipo-variable.html"><i class="fa fa-check"></i><b>6</b> Type of Variable of Interest</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="tipo-variable.html"><a href="tipo-variable.html#organic-carbon-primary-production"><i class="fa fa-check"></i><b>6.1</b> <strong>🌱 Organic Carbon (Primary Production)</strong></a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="tipo-variable.html"><a href="tipo-variable.html#ndvi-normalized-difference-vegetation-index"><i class="fa fa-check"></i><b>6.1.1</b> <strong>NDVI</strong> – Normalized Difference Vegetation Index</a></li>
+<li class="chapter" data-level="6.1.2" data-path="tipo-variable.html"><a href="tipo-variable.html#evi-enhanced-vegetation-index"><i class="fa fa-check"></i><b>6.1.2</b> <strong>EVI</strong> – Enhanced Vegetation Index</a></li>
+<li class="chapter" data-level="6.1.3" data-path="tipo-variable.html"><a href="tipo-variable.html#chl-a-chlorophyll-a-concentration"><i class="fa fa-check"></i><b>6.1.3</b> <strong>Chl-a</strong> – Chlorophyll-a Concentration</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="tipo-variable.html"><a href="tipo-variable.html#radiation-balance"><i class="fa fa-check"></i><b>6.2</b> <strong>🌞 Radiation Balance</strong></a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="tipo-variable.html"><a href="tipo-variable.html#alb-albedo"><i class="fa fa-check"></i><b>6.2.1</b> <strong>ALB</strong> – Albedo</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="tipo-variable.html"><a href="tipo-variable.html#water-balance"><i class="fa fa-check"></i><b>6.3</b> <strong>💧 Water Balance</strong></a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="tipo-variable.html"><a href="tipo-variable.html#et-evapotranspiration"><i class="fa fa-check"></i><b>6.3.1</b> <strong>ET</strong> – Evapotranspiration</a></li>
+<li class="chapter" data-level="6.3.2" data-path="tipo-variable.html"><a href="tipo-variable.html#le-latent-heat"><i class="fa fa-check"></i><b>6.3.2</b> <strong>LE</strong> – Latent Heat</a></li>
+<li class="chapter" data-level="6.3.3" data-path="tipo-variable.html"><a href="tipo-variable.html#lswi-land-surface-water-index"><i class="fa fa-check"></i><b>6.3.3</b> <strong>LSWI</strong> – Land Surface Water Index</a></li>
+<li class="chapter" data-level="6.3.4" data-path="tipo-variable.html"><a href="tipo-variable.html#ndwi-normalized-difference-water-index"><i class="fa fa-check"></i><b>6.3.4</b> <strong>NDWI</strong> – Normalized Difference Water Index</a></li>
+<li class="chapter" data-level="6.3.5" data-path="tipo-variable.html"><a href="tipo-variable.html#ndsi-normalized-difference-snow-index"><i class="fa fa-check"></i><b>6.3.5</b> <strong>NDSI</strong> – Normalized Difference Snow Index</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="tipo-variable.html"><a href="tipo-variable.html#sensible-heat"><i class="fa fa-check"></i><b>6.4</b> <strong>🌡️ Sensible Heat</strong></a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="tipo-variable.html"><a href="tipo-variable.html#lst-land-surface-temperature"><i class="fa fa-check"></i><b>6.4.1</b> <strong>LST</strong> – Land Surface Temperature</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="tipo-variable.html"><a href="tipo-variable.html#nutrients-aerosols"><i class="fa fa-check"></i><b>6.5</b> <strong>💨 Nutrients / Aerosols</strong></a>
+<ul>
+<li class="chapter" data-level="6.5.1" data-path="tipo-variable.html"><a href="tipo-variable.html#arsl-aerosol-optical-depth"><i class="fa fa-check"></i><b>6.5.1</b> <strong>ARSL</strong> – Aerosol Optical Depth</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="sensor.html"><a href="sensor.html"><i class="fa fa-check"></i><b>7</b> Satellite Sensor</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="sensor.html"><a href="sensor.html#modis-250-m-16-days"><i class="fa fa-check"></i><b>7.1</b> <strong>🛰️ MODIS 250 m, 16 days</strong></a></li>
+<li class="chapter" data-level="7.2" data-path="sensor.html"><a href="sensor.html#landsat-30-m-16-days"><i class="fa fa-check"></i><b>7.2</b> <strong>🛰️ Landsat 30 m, &gt; 16 days</strong></a></li>
+<li class="chapter" data-level="7.3" data-path="sensor.html"><a href="sensor.html#sentinel-2-10-m-5-days"><i class="fa fa-check"></i><b>7.3</b> <strong>🛰️ Sentinel-2 10 m, 5 days</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="ud-agregacion-temporal.html"><a href="ud-agregacion-temporal.html"><i class="fa fa-check"></i><b>8</b> Temporal Aggregation Unit</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="ud-agregacion-temporal.html"><a href="ud-agregacion-temporal.html#original"><i class="fa fa-check"></i><b>8.1</b> <strong>Original</strong></a></li>
+<li class="chapter" data-level="8.2" data-path="ud-agregacion-temporal.html"><a href="ud-agregacion-temporal.html#every-16-days"><i class="fa fa-check"></i><b>8.2</b> <strong>Every 16 days</strong></a></li>
+<li class="chapter" data-level="8.3" data-path="ud-agregacion-temporal.html"><a href="ud-agregacion-temporal.html#monthly"><i class="fa fa-check"></i><b>8.3</b> <strong>Monthly</strong></a></li>
+<li class="chapter" data-level="8.4" data-path="ud-agregacion-temporal.html"><a href="ud-agregacion-temporal.html#annual"><i class="fa fa-check"></i><b>8.4</b> <strong>Annual</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="agregacion-temporal.html"><a href="agregacion-temporal.html"><i class="fa fa-check"></i><b>9</b> Temporal Aggregation Metric</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="agregacion-temporal.html"><a href="agregacion-temporal.html#mean"><i class="fa fa-check"></i><b>9.1</b> <strong>Mean</strong></a></li>
+<li class="chapter" data-level="9.2" data-path="agregacion-temporal.html"><a href="agregacion-temporal.html#median"><i class="fa fa-check"></i><b>9.2</b> <strong>Median</strong></a></li>
+<li class="chapter" data-level="9.3" data-path="agregacion-temporal.html"><a href="agregacion-temporal.html#mode"><i class="fa fa-check"></i><b>9.3</b> <strong>Mode</strong></a></li>
+<li class="chapter" data-level="9.4" data-path="agregacion-temporal.html"><a href="agregacion-temporal.html#minimum"><i class="fa fa-check"></i><b>9.4</b> <strong>Minimum</strong></a></li>
+<li class="chapter" data-level="9.5" data-path="agregacion-temporal.html"><a href="agregacion-temporal.html#maximum"><i class="fa fa-check"></i><b>9.5</b> <strong>Maximum</strong></a></li>
+<li class="chapter" data-level="9.6" data-path="agregacion-temporal.html"><a href="agregacion-temporal.html#th-percentile"><i class="fa fa-check"></i><b>9.6</b> <strong>10th Percentile</strong></a></li>
+<li class="chapter" data-level="9.7" data-path="agregacion-temporal.html"><a href="agregacion-temporal.html#th-percentile-1"><i class="fa fa-check"></i><b>9.7</b> <strong>90th Percentile</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="agregacion-temporal-interanual.html"><a href="agregacion-temporal-interanual.html"><i class="fa fa-check"></i><b>10</b> Interannual Temporal Aggregation Metric</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="agregacion-temporal-interanual.html"><a href="agregacion-temporal-interanual.html#mean-1"><i class="fa fa-check"></i><b>10.1</b> <strong>Mean</strong></a></li>
+<li class="chapter" data-level="10.2" data-path="agregacion-temporal-interanual.html"><a href="agregacion-temporal-interanual.html#median-1"><i class="fa fa-check"></i><b>10.2</b> <strong>Median</strong></a></li>
+<li class="chapter" data-level="10.3" data-path="agregacion-temporal-interanual.html"><a href="agregacion-temporal-interanual.html#minimum-1"><i class="fa fa-check"></i><b>10.3</b> <strong>Minimum</strong></a></li>
+<li class="chapter" data-level="10.4" data-path="agregacion-temporal-interanual.html"><a href="agregacion-temporal-interanual.html#maximum-1"><i class="fa fa-check"></i><b>10.4</b> <strong>Maximum</strong></a></li>
+<li class="chapter" data-level="10.5" data-path="agregacion-temporal-interanual.html"><a href="agregacion-temporal-interanual.html#do-not-calculate"><i class="fa fa-check"></i><b>10.5</b> <strong>Do not calculate</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="filtrado-nubes.html"><a href="filtrado-nubes.html"><i class="fa fa-check"></i><b>11</b> Cloud Filtering</a></li>
+<li class="chapter" data-level="12" data-path="mapas-graficos.html"><a href="mapas-graficos.html"><i class="fa fa-check"></i><b>12</b> Generate Maps and Result Charts</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="mapas-graficos.html"><a href="mapas-graficos.html#calculate"><i class="fa fa-check"></i><b>12.1</b> <strong>Calculate</strong></a></li>
+<li class="chapter" data-level="12.2" data-path="mapas-graficos.html"><a href="mapas-graficos.html#select-layer"><i class="fa fa-check"></i><b>12.2</b> <strong>Select Layer</strong></a></li>
+<li class="chapter" data-level="12.3" data-path="mapas-graficos.html"><a href="mapas-graficos.html#add-to-map"><i class="fa fa-check"></i><b>12.3</b> <strong>Add to Map</strong></a></li>
+<li class="chapter" data-level="12.4" data-path="mapas-graficos.html"><a href="mapas-graficos.html#roi-chart"><i class="fa fa-check"></i><b>12.4</b> <strong>ROI Chart</strong></a></li>
+<li class="chapter" data-level="12.5" data-path="mapas-graficos.html"><a href="mapas-graficos.html#pixel-chart"><i class="fa fa-check"></i><b>12.5</b> <strong>Pixel Chart</strong></a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://obsnev.es/" target="blank">MonitorEO-OBSNEV</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">MonitorEO-OBSNEV user manual</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="filtrado-nubes" class="section level1 hasAnchor" number="11">
+<h1><span class="header-section-number">11</span> Cloud Filtering<a href="filtrado-nubes.html#filtrado-nubes" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><img src="assets/filter.png" /></p>
+<p>When this box is checked, a <strong>scene-based cloud filter</strong> will be applied. Scene-based cloud filtering is a process used in satellite image analysis to remove or reduce the interference caused by the presence of clouds in each image, improving data quality. As a result, analyses will more accurately reflect the actual characteristics of the Earth’s surface.</p>
+<p>You can set a % cloud cover threshold, which will discard scenes or images that exceed the defined limit.</p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="agregacion-temporal-interanual.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="mapas-graficos.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": "https://github.com/monitoreo-obsnev/manual/issues10-filtrado-nubes.Rmd",
+    "text": "Edit"
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": ["monitoreo-obsnev.pdf", "monitoreo-obsnev.epub"],
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection"
+  }
+});
+});
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+# Temporal Aggregation Unit {#ud-agregacion-temporal}
+
+Select the temporal interval over which you want to perform the calculations. You can keep the **original temporal resolution of the sensor** or apply a **periodic aggregation** to facilitate the analysis:
+
+![](assets/aggregation.png)
+
+## **Original**
+
+Uses the native frequency of the sensor (e.g., daily, 5 days, 16 days, etc.).
+
+## **Every 16 days**
+
+Groups the available observations into 16-day intervals.
+
+## **Monthly**
+
+Summarizes the data by month.
+
+## **Annual**
+
+Generates a single aggregated observation per year.
+
+Temporal aggregation helps smooth short-term variations, facilitate comparisons between periods, reduce the influence of outlier data, or avoid the loss of information caused by cloud presence in the area of interest on specific dates.

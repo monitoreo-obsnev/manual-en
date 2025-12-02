@@ -1,0 +1,34 @@
+
+# Temporal Aggregation Metric {#agregacion-temporal}
+
+Select the **temporal aggregation method** to be applied to the dataset. This option allows you to **summarize time series** using statistical functions called **reducers**, which include:
+
+![](assets/aggregationTime.png)
+
+## **Mean**
+
+Calculates the **average** of the values within the selected time period.  
+
+## **Median**
+
+Calculates the **central value** in an ordered dataset. It is more robust to extreme values than the mean.  
+
+## **Mode**
+
+Calculates the **most frequent value** in a dataset.  
+
+## **Minimum**
+
+Calculates the **lowest value** in a time period.  
+
+## **Maximum**
+
+Calculates the **highest value** in a time period.  
+
+## **10th Percentile**
+
+Finds the value below which **10% of the data** fall. Used to measure **low values** or extreme events.  
+
+## **90th Percentile**
+
+Finds the value below which **90% of the data** fall. Used to measure **high values** or extreme events.  

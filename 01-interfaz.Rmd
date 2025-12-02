@@ -1,0 +1,10 @@
+# MonitorEO-OBSNEV Interface {#interfaz}
+
+The graphical interface of the **MonitorEO-OBSNEV Virtual Research Laboratory** (*Monitoring with Earth Observations* of the **Sierra Nevada Global Change Observatory**) provides access to an advanced monitoring and alert system based on remote sensing data.
+
+This system has been designed for the observation, analysis, and assessment of **Essential Biodiversity Variables (EBVs)** related to ecosystem functioning and structure. The interface enables spatial and temporal exploration of these variables in different regions of the planet, with special emphasis on protected mountain areas.
+
+MonitorEO-OBSNEV integrates satellite data collections, geospatial analysis tools, and an interactive interface that facilitates its use both in scientific studies and in management applications.
+
+
+![](assets/InterfazMonitorEO.png)

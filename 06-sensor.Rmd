@@ -1,0 +1,47 @@
+# Satellite Sensor {#sensor}
+
+Select which sensor you want to work with. The available sensors have different temporal and spatial resolutions. Depending on the chosen variable, you will have data availability from one or another sensor.  
+
+![](assets/sensor.png)
+
+## **🛰️ MODIS 250 m, 16 days**
+
+MODIS (*Moderate Resolution Imaging Spectroradiometer*) is a sensor onboard NASA’s Terra and Aqua satellites.  
+
+**Spatial resolution:** Depends on the selected variable. Data may be available at 250 m, 1 km, 4 km... This information will appear in the "Sensor" tab once you have selected your variable.  
+**Temporal resolution:** Depends on the selected variable. Data may be daily, every 8 days, or every 16 days. This information will appear in the "Sensor" tab once you have selected your variable.  
+
+For this interface, data from **MODIS Terra collections** have been used.  
+
+These satellites **provide data from** **24/02/2000 to the present**, although availability may vary depending on the selected variable.  
+
+---
+
+## **🛰️ Landsat 30 m, > 16 days**
+
+The **Landsat** series is operated by NASA and the USGS. These data include Landsat 5, 7, 8, and 9.  
+
+**Spatial resolution:** 30 meters.  
+**Temporal resolution:** Greater than 16 days, since depending on the satellite, revisit periods are 8 or 16 days each.  
+
+The **date range** covered is from **1984 to the present**, depending on the availability of each satellite:  
+
+- **Landsat 5** (16/03/1984 – 05/05/2012)  
+- **Landsat 7** (28/05/1999 – present, with limitations since 31/05/2003 due to ETM+ failure)  
+- **Landsat 8** (18/03/2013 – present)  
+- **Landsat 9** (31/10/2021 – present)  
+
+Between **05/05/2012 and 18/03/2013**, no data are available due to the interruption of Landsat 7 imaging. Although this satellite continued operating, its usefulness had been limited since 2003 by a failure in the Enhanced Thematic Mapper Plus (ETM+). Due to this limitation, from 2003 onwards, its data are not considered within the full available date range.  
+
+---
+
+## **🛰️ Sentinel-2 10 m, 5 days**
+
+The **Sentinel-2** program is operated by the European Space Agency (ESA) and is part of the Copernicus program.  
+
+**Spatial resolution:** 10 meters.  
+**Temporal resolution:** 5 days.  
+
+In this interface, we use the **SR Harmonized** product, a Surface Reflectance (SR) product adjusted to ensure consistency between Sentinel-2A and Sentinel-2B sensors through atmospheric correction, spectral adjustment, and data normalization.  
+
+The **date range** of this sensor is from **28/03/2017 to the present.**  

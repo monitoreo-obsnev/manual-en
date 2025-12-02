@@ -1,0 +1,8 @@
+# Cloud Filtering {#filtrado-nubes}
+
+![](assets/filter.png)
+
+When this box is checked, a **scene-based cloud filter** will be applied. Scene-based cloud filtering is a process used in satellite image analysis to remove or reduce the interference caused by the presence of clouds in each image, improving data quality. As a result, analyses will more accurately reflect the actual characteristics of the Earth’s surface.
+
+You can set a % cloud cover threshold, which will discard scenes or images that exceed the defined limit.
+

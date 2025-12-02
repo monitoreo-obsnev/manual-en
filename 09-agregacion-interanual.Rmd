@@ -1,0 +1,25 @@
+# Interannual Temporal Aggregation Metric {#agregacion-temporal-interanual}
+
+Select the temporal aggregation method to run your analysis. **Temporal aggregation** methods allow you to **summarize data** over time periods using different statistical techniques called **reducers**.  
+
+![](assets/interannualAggregation.png)
+
+## **Mean**
+
+Calculates the **average** of the values per year within the selected time period.  
+
+## **Median**
+
+Calculates the **central value** of the values per year within the selected time period. It is more robust to extreme values than the mean.  
+
+## **Minimum**
+
+Calculates the **lowest value** per year within a time period.  
+
+## **Maximum**
+
+Calculates the **highest value** per year within a time period.  
+
+## **Do not calculate**
+
+Does not compute annual temporal aggregations.  

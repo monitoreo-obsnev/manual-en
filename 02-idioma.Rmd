@@ -1,0 +1,17 @@
+# Languages {#idiomas}
+
+🌐 Select the interface language. The following options are available:
+
+![](assets/Language.png)
+
+- **es**  
+Spanish  
+
+- **en**  
+English  
+
+- **fr**  
+French  
+
+- **de**  
+German  

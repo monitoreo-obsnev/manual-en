@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>6 Type of Variable of Interest | MonitorEO-OBSNEV user manual</title>
+  <meta name="description" content="User manual of the MonitorEO-OBSNEV tool" />
+  <meta name="generator" content="bookdown 0.42 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="6 Type of Variable of Interest | MonitorEO-OBSNEV user manual" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="User manual of the MonitorEO-OBSNEV tool" />
+  <meta name="github-repo" content="monitoreo-obsnev/manual" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="6 Type of Variable of Interest | MonitorEO-OBSNEV user manual" />
+  
+  <meta name="twitter:description" content="User manual of the MonitorEO-OBSNEV tool" />
+  
+
+<meta name="author" content="Cazorla, P.B., Guerrero, P., Alcaraz-Segura, D., Navarro, C., Bello, T., Postma, T., Zamora, R., Martínez-López, J." />
+
+
+<meta name="date" content="2025-11-18" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="fechas.html"/>
+<link rel="next" href="sensor.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">MonitorEO-OBSNEV</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="interfaz.html"><a href="interfaz.html"><i class="fa fa-check"></i><b>2</b> MonitorEO-OBSNEV Interface</a></li>
+<li class="chapter" data-level="3" data-path="idiomas.html"><a href="idiomas.html"><i class="fa fa-check"></i><b>3</b> Languages</a></li>
+<li class="chapter" data-level="4" data-path="area-estudio.html"><a href="area-estudio.html"><i class="fa fa-check"></i><b>4</b> Study Area</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="area-estudio.html"><a href="area-estudio.html#draw-your-region-of-interest-roi-region-of-interest"><i class="fa fa-check"></i><b>4.1</b> <strong>🖊️ Draw your Region of Interest (ROI – Region of Interest)</strong></a></li>
+<li class="chapter" data-level="4.2" data-path="area-estudio.html"><a href="area-estudio.html#using-a-public-or-personal-asset"><i class="fa fa-check"></i><b>4.2</b> 📂 <strong>Using a Public or Personal Asset</strong></a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="area-estudio.html"><a href="area-estudio.html#access-the-upload-tool"><i class="fa fa-check"></i><b>4.2.1</b> Access the upload tool</a></li>
+<li class="chapter" data-level="4.2.2" data-path="area-estudio.html"><a href="area-estudio.html#upload-the-file"><i class="fa fa-check"></i><b>4.2.2</b> Upload the file</a></li>
+<li class="chapter" data-level="4.2.3" data-path="area-estudio.html"><a href="area-estudio.html#wait-for-processing"><i class="fa fa-check"></i><b>4.2.3</b> Wait for processing</a></li>
+<li class="chapter" data-level="4.2.4" data-path="area-estudio.html"><a href="area-estudio.html#use-the-asset-in-monitoreo"><i class="fa fa-check"></i><b>4.2.4</b> Use the asset in MonitorEO</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="area-estudio.html"><a href="area-estudio.html#specific-point-and-buffer"><i class="fa fa-check"></i><b>4.3</b> <strong>📌 Specific Point and Buffer</strong></a></li>
+<li class="chapter" data-level="4.4" data-path="area-estudio.html"><a href="area-estudio.html#national-park"><i class="fa fa-check"></i><b>4.4</b> <strong>🏞️ National Park</strong></a></li>
+<li class="chapter" data-level="4.5" data-path="area-estudio.html"><a href="area-estudio.html#world-database-on-protected-areas-wdpa"><i class="fa fa-check"></i><b>4.5</b> <strong>🌍 World Database on Protected Areas (WDPA)</strong></a></li>
+<li class="chapter" data-level="4.6" data-path="area-estudio.html"><a href="area-estudio.html#choose-a-project"><i class="fa fa-check"></i><b>4.6</b> <strong>📁 Choose a Project</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="fechas.html"><a href="fechas.html"><i class="fa fa-check"></i><b>5</b> Start and End Dates</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="fechas.html"><a href="fechas.html#selection-of-a-specific-interval"><i class="fa fa-check"></i><b>5.1</b> <strong>📆 Selection of a Specific Interval</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="tipo-variable.html"><a href="tipo-variable.html"><i class="fa fa-check"></i><b>6</b> Type of Variable of Interest</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="tipo-variable.html"><a href="tipo-variable.html#organic-carbon-primary-production"><i class="fa fa-check"></i><b>6.1</b> <strong>🌱 Organic Carbon (Primary Production)</strong></a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="tipo-variable.html"><a href="tipo-variable.html#ndvi-normalized-difference-vegetation-index"><i class="fa fa-check"></i><b>6.1.1</b> <strong>NDVI</strong> – Normalized Difference Vegetation Index</a></li>
+<li class="chapter" data-level="6.1.2" data-path="tipo-variable.html"><a href="tipo-variable.html#evi-enhanced-vegetation-index"><i class="fa fa-check"></i><b>6.1.2</b> <strong>EVI</strong> – Enhanced Vegetation Index</a></li>
+<li class="chapter" data-level="6.1.3" data-path="tipo-variable.html"><a href="tipo-variable.html#chl-a-chlorophyll-a-concentration"><i class="fa fa-check"></i><b>6.1.3</b> <strong>Chl-a</strong> – Chlorophyll-a Concentration</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="tipo-variable.html"><a href="tipo-variable.html#radiation-balance"><i class="fa fa-check"></i><b>6.2</b> <strong>🌞 Radiation Balance</strong></a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="tipo-variable.html"><a href="tipo-variable.html#alb-albedo"><i class="fa fa-check"></i><b>6.2.1</b> <strong>ALB</strong> – Albedo</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="tipo-variable.html"><a href="tipo-variable.html#water-balance"><i class="fa fa-check"></i><b>6.3</b> <strong>💧 Water Balance</strong></a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="tipo-variable.html"><a href="tipo-variable.html#et-evapotranspiration"><i class="fa fa-check"></i><b>6.3.1</b> <strong>ET</strong> – Evapotranspiration</a></li>
+<li class="chapter" data-level="6.3.2" data-path="tipo-variable.html"><a href="tipo-variable.html#le-latent-heat"><i class="fa fa-check"></i><b>6.3.2</b> <strong>LE</strong> – Latent Heat</a></li>
+<li class="chapter" data-level="6.3.3" data-path="tipo-variable.html"><a href="tipo-variable.html#lswi-land-surface-water-index"><i class="fa fa-check"></i><b>6.3.3</b> <strong>LSWI</strong> – Land Surface Water Index</a></li>
+<li class="chapter" data-level="6.3.4" data-path="tipo-variable.html"><a href="tipo-variable.html#ndwi-normalized-difference-water-index"><i class="fa fa-check"></i><b>6.3.4</b> <strong>NDWI</strong> – Normalized Difference Water Index</a></li>
+<li class="chapter" data-level="6.3.5" data-path="tipo-variable.html"><a href="tipo-variable.html#ndsi-normalized-difference-snow-index"><i class="fa fa-check"></i><b>6.3.5</b> <strong>NDSI</strong> – Normalized Difference Snow Index</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="tipo-variable.html"><a href="tipo-variable.html#sensible-heat"><i class="fa fa-check"></i><b>6.4</b> <strong>🌡️ Sensible Heat</strong></a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="tipo-variable.html"><a href="tipo-variable.html#lst-land-surface-temperature"><i class="fa fa-check"></i><b>6.4.1</b> <strong>LST</strong> – Land Surface Temperature</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="tipo-variable.html"><a href="tipo-variable.html#nutrients-aerosols"><i class="fa fa-check"></i><b>6.5</b> <strong>💨 Nutrients / Aerosols</strong></a>
+<ul>
+<li class="chapter" data-level="6.5.1" data-path="tipo-variable.html"><a href="tipo-variable.html#arsl-aerosol-optical-depth"><i class="fa fa-check"></i><b>6.5.1</b> <strong>ARSL</strong> – Aerosol Optical Depth</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="sensor.html"><a href="sensor.html"><i class="fa fa-check"></i><b>7</b> Satellite Sensor</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="sensor.html"><a href="sensor.html#modis-250-m-16-days"><i class="fa fa-check"></i><b>7.1</b> <strong>🛰️ MODIS 250 m, 16 days</strong></a></li>
+<li class="chapter" data-level="7.2" data-path="sensor.html"><a href="sensor.html#landsat-30-m-16-days"><i class="fa fa-check"></i><b>7.2</b> <strong>🛰️ Landsat 30 m, &gt; 16 days</strong></a></li>
+<li class="chapter" data-level="7.3" data-path="sensor.html"><a href="sensor.html#sentinel-2-10-m-5-days"><i class="fa fa-check"></i><b>7.3</b> <strong>🛰️ Sentinel-2 10 m, 5 days</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="ud-agregacion-temporal.html"><a href="ud-agregacion-temporal.html"><i class="fa fa-check"></i><b>8</b> Temporal Aggregation Unit</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="ud-agregacion-temporal.html"><a href="ud-agregacion-temporal.html#original"><i class="fa fa-check"></i><b>8.1</b> <strong>Original</strong></a></li>
+<li class="chapter" data-level="8.2" data-path="ud-agregacion-temporal.html"><a href="ud-agregacion-temporal.html#every-16-days"><i class="fa fa-check"></i><b>8.2</b> <strong>Every 16 days</strong></a></li>
+<li class="chapter" data-level="8.3" data-path="ud-agregacion-temporal.html"><a href="ud-agregacion-temporal.html#monthly"><i class="fa fa-check"></i><b>8.3</b> <strong>Monthly</strong></a></li>
+<li class="chapter" data-level="8.4" data-path="ud-agregacion-temporal.html"><a href="ud-agregacion-temporal.html#annual"><i class="fa fa-check"></i><b>8.4</b> <strong>Annual</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="agregacion-temporal.html"><a href="agregacion-temporal.html"><i class="fa fa-check"></i><b>9</b> Temporal Aggregation Metric</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="agregacion-temporal.html"><a href="agregacion-temporal.html#mean"><i class="fa fa-check"></i><b>9.1</b> <strong>Mean</strong></a></li>
+<li class="chapter" data-level="9.2" data-path="agregacion-temporal.html"><a href="agregacion-temporal.html#median"><i class="fa fa-check"></i><b>9.2</b> <strong>Median</strong></a></li>
+<li class="chapter" data-level="9.3" data-path="agregacion-temporal.html"><a href="agregacion-temporal.html#mode"><i class="fa fa-check"></i><b>9.3</b> <strong>Mode</strong></a></li>
+<li class="chapter" data-level="9.4" data-path="agregacion-temporal.html"><a href="agregacion-temporal.html#minimum"><i class="fa fa-check"></i><b>9.4</b> <strong>Minimum</strong></a></li>
+<li class="chapter" data-level="9.5" data-path="agregacion-temporal.html"><a href="agregacion-temporal.html#maximum"><i class="fa fa-check"></i><b>9.5</b> <strong>Maximum</strong></a></li>
+<li class="chapter" data-level="9.6" data-path="agregacion-temporal.html"><a href="agregacion-temporal.html#th-percentile"><i class="fa fa-check"></i><b>9.6</b> <strong>10th Percentile</strong></a></li>
+<li class="chapter" data-level="9.7" data-path="agregacion-temporal.html"><a href="agregacion-temporal.html#th-percentile-1"><i class="fa fa-check"></i><b>9.7</b> <strong>90th Percentile</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="agregacion-temporal-interanual.html"><a href="agregacion-temporal-interanual.html"><i class="fa fa-check"></i><b>10</b> Interannual Temporal Aggregation Metric</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="agregacion-temporal-interanual.html"><a href="agregacion-temporal-interanual.html#mean-1"><i class="fa fa-check"></i><b>10.1</b> <strong>Mean</strong></a></li>
+<li class="chapter" data-level="10.2" data-path="agregacion-temporal-interanual.html"><a href="agregacion-temporal-interanual.html#median-1"><i class="fa fa-check"></i><b>10.2</b> <strong>Median</strong></a></li>
+<li class="chapter" data-level="10.3" data-path="agregacion-temporal-interanual.html"><a href="agregacion-temporal-interanual.html#minimum-1"><i class="fa fa-check"></i><b>10.3</b> <strong>Minimum</strong></a></li>
+<li class="chapter" data-level="10.4" data-path="agregacion-temporal-interanual.html"><a href="agregacion-temporal-interanual.html#maximum-1"><i class="fa fa-check"></i><b>10.4</b> <strong>Maximum</strong></a></li>
+<li class="chapter" data-level="10.5" data-path="agregacion-temporal-interanual.html"><a href="agregacion-temporal-interanual.html#do-not-calculate"><i class="fa fa-check"></i><b>10.5</b> <strong>Do not calculate</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="filtrado-nubes.html"><a href="filtrado-nubes.html"><i class="fa fa-check"></i><b>11</b> Cloud Filtering</a></li>
+<li class="chapter" data-level="12" data-path="mapas-graficos.html"><a href="mapas-graficos.html"><i class="fa fa-check"></i><b>12</b> Generate Maps and Result Charts</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="mapas-graficos.html"><a href="mapas-graficos.html#calculate"><i class="fa fa-check"></i><b>12.1</b> <strong>Calculate</strong></a></li>
+<li class="chapter" data-level="12.2" data-path="mapas-graficos.html"><a href="mapas-graficos.html#select-layer"><i class="fa fa-check"></i><b>12.2</b> <strong>Select Layer</strong></a></li>
+<li class="chapter" data-level="12.3" data-path="mapas-graficos.html"><a href="mapas-graficos.html#add-to-map"><i class="fa fa-check"></i><b>12.3</b> <strong>Add to Map</strong></a></li>
+<li class="chapter" data-level="12.4" data-path="mapas-graficos.html"><a href="mapas-graficos.html#roi-chart"><i class="fa fa-check"></i><b>12.4</b> <strong>ROI Chart</strong></a></li>
+<li class="chapter" data-level="12.5" data-path="mapas-graficos.html"><a href="mapas-graficos.html#pixel-chart"><i class="fa fa-check"></i><b>12.5</b> <strong>Pixel Chart</strong></a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://obsnev.es/" target="blank">MonitorEO-OBSNEV</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">MonitorEO-OBSNEV user manual</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="tipo-variable" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">6</span> Type of Variable of Interest<a href="tipo-variable.html#tipo-variable" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Select the study variable. The variables are classified into major categories of <a href="https://geobon.org/ebvs/what-are-ebvs/">EBVs</a> {target=_blank} <strong>(Essential Biodiversity Variables)</strong>, related to ecosystem functioning and structure. <strong>MonitorEO-OBSNEV</strong> includes:</p>
+<p><img src="assets/variables.png" /></p>
+<div id="organic-carbon-primary-production" class="section level2 hasAnchor" number="6.1">
+<h2><span class="header-section-number">6.1</span> <strong>🌱 Organic Carbon (Primary Production)</strong><a href="#organic-carbon-primary-production" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="ndvi-normalized-difference-vegetation-index" class="section level3 hasAnchor" number="6.1.1">
+<h3><span class="header-section-number">6.1.1</span> <strong>NDVI</strong> – Normalized Difference Vegetation Index<a href="tipo-variable.html#ndvi-normalized-difference-vegetation-index" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The Normalized Difference Vegetation Index (NDVI) is a widely used spectral indicator to quantify vegetation cover and condition through remote sensors. It is calculated from the difference between near-infrared (NIR) reflectance and red (RED) reflectance, normalized by their sum:</p>
+<p>NDVI = (NIR − RED) / (NIR + RED)</p>
+<p>This index ranges from −1 to 1. Values close to 1 indicate dense and vigorous vegetation, while values near −1 correspond to non-vegetated surfaces, such as water bodies, snow, or urban areas.</p>
+<p>Units: unitless.</p>
+</div>
+<div id="evi-enhanced-vegetation-index" class="section level3 hasAnchor" number="6.1.2">
+<h3><span class="header-section-number">6.1.2</span> <strong>EVI</strong> – Enhanced Vegetation Index<a href="tipo-variable.html#evi-enhanced-vegetation-index" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The Enhanced Vegetation Index (EVI) is a spectral indicator developed to optimize the estimation of vegetation cover and condition from remote sensing data. Unlike traditional indices such as NDVI, EVI incorporates atmospheric correction factors and a compensation for soil background influence, improving sensitivity in areas with dense vegetation, low vegetation cover, or complex atmospheric conditions.</p>
+<p>The general formula for EVI is as follows:</p>
+<p>EVI = G · (NIR − RED) / (NIR + C1 · RED − C2 · BLUE + L)</p>
+<p>where:</p>
+<ul>
+<li>NIR: near-infrared reflectance<br />
+</li>
+<li>RED: red reflectance<br />
+</li>
+<li>BLUE: blue reflectance<br />
+</li>
+<li>G: gain factor (generally 2.5)<br />
+</li>
+<li>L: soil correction factor (1.0)<br />
+</li>
+<li>C1 and C2: atmospheric correction coefficients (6.0 and 7.5, respectively)</li>
+</ul>
+<p>EVI values range from −1 to 1. Values close to 1 indicate dense and healthy vegetation, while negative or low values reflect non-vegetated areas, such as water bodies, urban areas, or snow-covered surfaces.</p>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>EVI Value</th>
+<th align="center">Ecological interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>&lt; 0.0</strong></td>
+<td align="center">Water, snow, clouds, non-vegetated areas</td>
+</tr>
+<tr class="even">
+<td><strong>0.0 – 0.1</strong></td>
+<td align="center">Bare soils, deserts, urban areas, rocks</td>
+</tr>
+<tr class="odd">
+<td><strong>0.1 – 0.2</strong></td>
+<td align="center">Sparse vegetation, arid grasslands, open shrubland</td>
+</tr>
+<tr class="even">
+<td><strong>0.2 – 0.3</strong></td>
+<td align="center">Grasslands, rainfed agriculture, savannas</td>
+</tr>
+<tr class="odd">
+<td><strong>0.3 – 0.5</strong></td>
+<td align="center">Open forests, active croplands (growing crops)</td>
+</tr>
+<tr class="even">
+<td><strong>0.5 – 0.7</strong></td>
+<td align="center">Dense temperate forests, croplands with high vegetation cover</td>
+</tr>
+<tr class="odd">
+<td><strong>&gt; 0.7</strong></td>
+<td align="center">Tropical forests, jungles, very dense vegetation</td>
+</tr>
+</tbody>
+</table>
+<p>Units: unitless.</p>
+</div>
+<div id="chl-a-chlorophyll-a-concentration" class="section level3 hasAnchor" number="6.1.3">
+<h3><span class="header-section-number">6.1.3</span> <strong>Chl-a</strong> – Chlorophyll-a Concentration<a href="tipo-variable.html#chl-a-chlorophyll-a-concentration" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The chlorophyll-a index is used to estimate the concentration of chlorophyll-a in water bodies such as oceans, lakes, and rivers. Chlorophyll-a is the main photosynthetic pigment present in phytoplankton, so its concentration serves as an indirect indicator of algal biomass and primary productivity in aquatic ecosystems. It is a key indicator for assessing water quality and the health of aquatic ecosystems (Gitelson et al., 1993; IOCCG, 2000).</p>
+<p>Units: mg m⁻³.</p>
+<hr />
+</div>
+</div>
+<div id="radiation-balance" class="section level2 hasAnchor" number="6.2">
+<h2><span class="header-section-number">6.2</span> <strong>🌞 Radiation Balance</strong><a href="#radiation-balance" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="alb-albedo" class="section level3 hasAnchor" number="6.2.1">
+<h3><span class="header-section-number">6.2.1</span> <strong>ALB</strong> – Albedo<a href="tipo-variable.html#alb-albedo" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Albedo is the fraction of incoming solar radiation reflected by a surface without being absorbed. It is a unitless parameter ranging from 0 (total absorption) to 1 (total reflection). A high albedo indicates that the surface reflects a large proportion of the incoming solar energy, as is the case with highly reflective surfaces such as snow or ice. In contrast, a low albedo implies greater radiation absorption, typical of dark surfaces such as urban areas, wet soils, or water bodies.</p>
+<p>Albedo plays a key role in the Earth’s energy balance and processes related to global climate, as it directly influences the amount of energy entering and retained in the climate system.</p>
+<p>Units: unitless.</p>
+<hr />
+</div>
+</div>
+<div id="water-balance" class="section level2 hasAnchor" number="6.3">
+<h2><span class="header-section-number">6.3</span> <strong>💧 Water Balance</strong><a href="#water-balance" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="et-evapotranspiration" class="section level3 hasAnchor" number="6.3.1">
+<h3><span class="header-section-number">6.3.1</span> <strong>ET</strong> – Evapotranspiration<a href="tipo-variable.html#et-evapotranspiration" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Estimate of the amount of water that evaporates from the Earth’s surface and is transpired by plants. Generated from the Mu et al. (2011) model, which implements an approach based on the Penman-Monteith equation, adapted for remote sensors. It helps to understand the water cycle, assess water availability in a region, and monitor water resources.</p>
+<p>Units: Kj/m²/8days.</p>
+</div>
+<div id="le-latent-heat" class="section level3 hasAnchor" number="6.3.2">
+<h3><span class="header-section-number">6.3.2</span> <strong>LE</strong> – Latent Heat<a href="tipo-variable.html#le-latent-heat" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Indirect estimate of the energy consumed by evapotranspiration. During this process, energy is required to break or form bonds between molecules, resulting in the release or absorption of heat. Latent heat plays a fundamental role in the water cycle, as evaporation and condensation are key processes in cloud formation, precipitation, and climate regulation.</p>
+<p>Units: J/m²/day.</p>
+</div>
+<div id="lswi-land-surface-water-index" class="section level3 hasAnchor" number="6.3.3">
+<h3><span class="header-section-number">6.3.3</span> <strong>LSWI</strong> – Land Surface Water Index<a href="tipo-variable.html#lswi-land-surface-water-index" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The LSWI is a spectral index used to detect and evaluate the presence of moisture on the land surface, particularly in vegetation and soil. It is based on the difference between near-infrared (NIR) and shortwave infrared (SWIR) reflectance, which are sensitive to water content in vegetation and soil.</p>
+<p>LSWI = (NIR − SWIR) / (NIR + SWIR)</p>
+<ul>
+<li>NIR: Near-infrared band<br />
+</li>
+<li>SWIR: Shortwave infrared band</li>
+</ul>
+<p><strong>High values</strong> → high surface moisture, wet soils, vegetation with high water content, wetlands, or irrigated croplands.<br />
+<strong>Low values</strong> → dry conditions, stressed vegetation, or arid soils.</p>
+<p>Units: unitless.</p>
+</div>
+<div id="ndwi-normalized-difference-water-index" class="section level3 hasAnchor" number="6.3.4">
+<h3><span class="header-section-number">6.3.4</span> <strong>NDWI</strong> – Normalized Difference Water Index<a href="tipo-variable.html#ndwi-normalized-difference-water-index" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The NDWI is a spectral index designed to detect and quantify the presence of water on the Earth’s surface. It is based on the difference in reflectance between near-infrared (NIR) and green (GREEN), taking advantage of the strong absorption of water in NIR and its high reflectance in the visible range.</p>
+<p>NDWI = (GREEN − NIR) / (GREEN + NIR)</p>
+<ul>
+<li>GREEN: Green band<br />
+</li>
+<li>NIR: Near-infrared band</li>
+</ul>
+<p><strong>NDWI &gt; 0</strong> → presence of <strong>surface water</strong> (rivers, lakes, reservoirs, flooded areas)<br />
+<strong>NDWI &lt; 0</strong> → <strong>non-water terrestrial surfaces</strong> (vegetation, bare soil, urban areas)</p>
+<p>Units: unitless.</p>
+</div>
+<div id="ndsi-normalized-difference-snow-index" class="section level3 hasAnchor" number="6.3.5">
+<h3><span class="header-section-number">6.3.5</span> <strong>NDSI</strong> – Normalized Difference Snow Index<a href="tipo-variable.html#ndsi-normalized-difference-snow-index" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The NDSI is a spectral indicator used to detect the presence and extent of snow on the Earth’s surface. It is based on the distinctive reflective properties of snow, which reflects strongly in the visible spectrum (green band) and absorbs significantly in shortwave infrared (SWIR), in contrast with most other land cover types.</p>
+<p>NDSI = (GREEN − SWIR) / (GREEN + SWIR)</p>
+<ul>
+<li>GREEN: Green band<br />
+</li>
+<li>SWIR: Shortwave infrared band</li>
+</ul>
+<p><strong>NDSI &gt; 0.4</strong> → high probability of <strong>snow or ice presence</strong><br />
+<strong>NDSI &lt; 0.2</strong> → generally indicates <strong>absence of snow</strong></p>
+<p>These thresholds may vary depending on the resolution and sensor used.</p>
+<p>Units: unitless.</p>
+<hr />
+</div>
+</div>
+<div id="sensible-heat" class="section level2 hasAnchor" number="6.4">
+<h2><span class="header-section-number">6.4</span> <strong>🌡️ Sensible Heat</strong><a href="#sensible-heat" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="lst-land-surface-temperature" class="section level3 hasAnchor" number="6.4.1">
+<h3><span class="header-section-number">6.4.1</span> <strong>LST</strong> – Land Surface Temperature<a href="tipo-variable.html#lst-land-surface-temperature" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Land Surface Temperature (LST) refers to the temperature recorded in the upper layer of the Earth’s surface or water bodies, as detected by remote sensors. LST is estimated from thermal radiance captured in the thermal infrared spectrum and is a key variable in analyzing processes such as energy balance, evapotranspiration, drought, water stress, and urban or agricultural monitoring.</p>
+<p>Units: °C.</p>
+<hr />
+</div>
+</div>
+<div id="nutrients-aerosols" class="section level2 hasAnchor" number="6.5">
+<h2><span class="header-section-number">6.5</span> <strong>💨 Nutrients / Aerosols</strong><a href="#nutrients-aerosols" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="arsl-aerosol-optical-depth" class="section level3 hasAnchor" number="6.5.1">
+<h3><span class="header-section-number">6.5.1</span> <strong>ARSL</strong> – Aerosol Optical Depth<a href="tipo-variable.html#arsl-aerosol-optical-depth" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Amount of aerosols in the total atmospheric column. It is used to quantify how much aerosol load is present in the atmosphere. The total aerosol optical depth refers to all aerosol types, while some satellite products provide information on the optical depth of a specific aerosol type, such as dust optical depth, which quantifies the dust load in the atmospheric column.</p>
+<p>Units: unitless.</p>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="fechas.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="sensor.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": "https://github.com/monitoreo-obsnev/manual/issues05-tipo-variable.Rmd",
+    "text": "Edit"
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": ["monitoreo-obsnev.pdf", "monitoreo-obsnev.epub"],
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection"
+  }
+});
+});
+</script>
+
+</body>
+
+</html>
