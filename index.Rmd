@@ -25,7 +25,4 @@ This project has been developed within the framework of the work carried out by 
 - **“Earth observations for the characterisation and monitoring of ecosystem functioning in Sierra Nevada (Spain)” (C-EXP-074-UGR23)**, co-funded by the ERDF 2014–2020 Program and the Regional Ministry of Economy, Knowledge, Enterprises and Universities of the Government of Andalusia.
 
 
-![](assets/logo-obs.png){width=150px}
-![](assets/logo-ugr.png){width=150px}
-![](assets/logo_junta.png){width=150px}
-![](assets/MICIU_everest.jpg)
+![](assets/logo_monitoreoobsnev.png){width=650px}
